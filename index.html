@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilherme Portfolio</title>
+    <!--Including stylesheet CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!--Including Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Including Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav class="blue-grey darken-3">
+        <div class="nav-wrapper container">
+            <!-- Left links-->
+            <ul class="nav-center">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- Right Icons-->
+            <div class="nav-icons">
+                <a href="https://www.linkedin.com/in/guilhermecoelhovieira/" target="_blank">
+                    <img src="images/linkedin-logo.svg" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/YtsDarko04" target="_blank">
+                    <img src="images/github-logo.svg" alt="GitHub">
+                </a>
+                <a href="mailto:coelhovieira.guilherme@gmail.com">
+                    <i class="material-icons">email</i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section About Me -->
+    <section id="about">
+        <div class="container">
+            <h3 class="center-align">COELHO VIEIRA Guilherme</h3>
+            <h5 class="center-align"> Game Developper </h5>
+            <!-- Photo -->
+            <div class="row about-row">
+                <div class="col s12 m4 center-align">
+                    <img src="images/guilherme.png" alt="Photo de COELHO VIEIRA Guilherme" class="personal-pic responsive-img">
+                </div>
+  
+                <!-- Bio -->
+                <div class="col s12 m8">
+                    <p>
+                        Je suis étudiant en 3ᵉ année de Bachelor développeur de jeux vidéo et rendu 3D temps réel. <br> J’ai acquis des compétences en C++ et C#, ainsi qu'une expérience avec les moteurs Unity et Unreal Engine. <br>
+                        Mon cursus m’a également permis de développer des aptitudes en gestion de projet et en travail d’équipe.<br>
+                    </p>
+                    <p>
+                        Ce portfolio a pour but de présenter mes différents projets, compétences et expériences dans ce domaine.
+                    </p>
+                    <p class="annonce">
+                        Je suis actuellement en recherche de stage pour mettre en pratique mes compétences dans un environnement professionnel.
+                    </p>
+
+                    <!-- Bouton vers CV -->
+                    <a href="docs/CV_Guilherme.pdf" class="btn blue-grey darken-3" target="_blank">
+                        Télécharger mon CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section Projets -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h3 class="center-align">Mes Projets</h3>
+            <!-- Projet 1 -->
+            <div class="project row valign-wrapper">
+                 <!-- Vidéo à gauche -->
+                <div class="col s12 m7">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/W3KgR7KjeKw" frameborder="0" allowfullscreen></iframe>
+                     </div>
+                </div>
+                <!-- Texte à droite -->
+                <div class="center-align col s12 m5">
+                    <h5>IA C++ Simulation Rugby</h5>
+                    <p>Nous devions réaliser une simulation de jeu de rugby où deux équipes se font fasse, auto controllé par notre state machine.</p>
+                    <p>Durée : 1 semaine(s) <br> Participant(s) : 2 élève(s) <br> Technologie(s) : C++ ; State Machine ; Intéligence Artificielle</p>
+                    <a class="btn blue-grey darken-3" href="https://github.com/projet1" target="_blank">Voir le projet</a>
+                </div>
+            </div>
+  
+            <!-- Projet 2 -->
+            <div class="project row valign-wrapper">
+            <!-- Texte à gauche -->
+                <div class="center-align col s12 m5">
+                    <h5>UE Puzzle Game</h5>
+                    <p>Ce projet avait pour but de nous faire découvrir le moteur Unreal Engine ainsi que les BluePrints. Nous devions réaliser un jeu de type puzzle avec plusieurs niveaux avec des mécaniques de résolutions différentes.</p>
+                    <p>Durée : 1 semaine(s) <br> Participant(s) : 2 élève(s) <br> Technologie(s) : BluePrints ; Unreal Engine</p>
+                    <a class="btn blue-grey darken-3" href="https://github.com/projet2" target="_blank">Voir le projet</a>
+                </div>
+            <!-- Vidéo à droite -->
+                <div class="col s12 m7">
+                    <div class="video-container">
+                        <iframe width="560" height="315"src="https://www.youtube.com/embed/MP-P_jF0rDA"frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projet 3 -->
+            <div class="project row valign-wrapper">
+                <!-- Vidéo à gauche -->
+               <div class="col s12 m7">
+                   <div class="video-container">
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/IkHy7dUNP30" frameborder="0" allowfullscreen></iframe>
+                    </div>
+               </div>
+               <!-- Texte à droite -->
+               <div class="center-align col s12 m5">
+                   <h5>UE Advanced Physic</h5>
+                   <p>Nous devions réaliser un jeu type Angry Birds nous permettant de découvrir des modules de physique avancée comme le mode fracture d'unreal.</p>
+                   <p>Durée : 1 semaine(s) <br> Participant(s) : 2 élève(s) <br> Technologie(s) : C++ ; Unreal Engine ; Fractured Mesh</p>
+                   <a class="btn blue-grey darken-3" href="https://github.com/projet3" target="_blank">Voir le projet</a>
+               </div>
+           </div>
+ 
+            <!-- Projet 4 -->
+           <div class="project row valign-wrapper">
+                <!-- Texte à gauche -->
+               <div class="center-align col s12 m5 l5">
+                   <h5>Unity Shaders & Feedback</h5>
+                   <p>Ce projet avait pour but de nous faire découvrir les shaders. Nous devions réaliser une démo en 3ème personne d'un joueur se battant contre des mannequins. <br> Le but était de réaliser le plus de feedback possible.</p>
+                   <p>Durée : 1 semaine(s) <br> Participant(s) : 3 élève(s) <br> Technologie(s) : C# ; Unity 3D ; ShaderGraph ; CineMachine</p>
+                   <a class="btn blue-grey darken-3" href="https://github.com/projet4" target="_blank">Voir le projet</a>
+               </div>
+                <!-- Vidéo à droite -->
+               <div class="col s12 m7 l7">
+                   <div class="video-container">
+                       <iframe width="560" height="315"src="https://www.youtube.com/embed/Uza3w-LwZNM"frameborder="0" allowfullscreen></iframe>
+                   </div>
+               </div>
+           </div>
+
+            <!-- Projet 5 -->
+            <div class="project row valign-wrapper">
+            <!-- Vidéo à gauche -->
+                <div class="col s12 m7">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ztpmHWxrgFA" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- Texte à droite -->
+                <div class="center-align col s12 m5">
+                    <h5>Unity IDLE GAME</h5>
+                    <p>Nous devions réaliser un jeu de type IDLE Game inspiré du jeu "PaperClip".</p>
+                    <p>Durée : 1 semaine(s) <br> Participant(s) : 2 élève(s) <br> Technologie(s) : C# ; Unity3D ; UI </p>
+                    <a class="btn blue-grey darken-3" href="https://github.com/Quest-Education-Group/lyo-t3-gameboy-p7-06" target="_blank">Voir le projet</a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section blue-grey darken-3">
+        <div class="container">
+            <h3 class="center-align">Contactez-moi</h3>
+  
+            <div class="row center-align" style="margin-top: 40px;">
+        
+                <p class="flow-text">Vous pouvez me contacter directement par email à :<br>
+                <a href="mailto:coelhovieira.guilherme@gmail.com" class="blue-grey-text text-lighten-3">coelhovieira.guilherme@gmail.com</a>
+                </p>
+  
+                <p>Retrouvez-moi aussi sur :
+                <a href="https://www.linkedin.com/in/guilhermecoelhovieira/" target="_blank" class="blue-grey-text text-lighten-3">LinkedIn</a> | 
+                <a href="https://github.com/YtsDarko04" target="_blank" class="blue-grey-text text-lighten-3">GitHub</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
